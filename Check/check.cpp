@@ -46,8 +46,8 @@ void ChangedChessBoard(int row,int col){
 
 void PictureMinus(Mat &srcImage1, Mat &srcImage2, Mat &dstImage){
 	//read two file
-	srcImage1 = imread("/home/dgw36/Pictures/circle_1.jpg");
-	srcImage2 = imread("/home/dgw36/Pictures/circle_2.jpg");
+	srcImage1 = imread("Pictures/circle_1.jpg");
+	srcImage2 = imread("Pictures/circle_2.jpg");
 	imshow("src1",srcImage1);
 	imshow("src2",srcImage2);
 

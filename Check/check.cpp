@@ -103,7 +103,7 @@ void FindChange(Mat &dstImage){
 				int tmpCol = (j%(2 * COL))/2 + 1 ; 
 				cout << "row = " << tmpRow << endl ;
 				cout << "col = " << tmpCol << endl ;
-				ChangedChessBoard(tmpRow, tmpCol); 
+				ChangedChessBoard(tmpRow-1, tmpCol-1); 
 			}
 		}
 	}
